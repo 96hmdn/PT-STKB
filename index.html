@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Beranda – PT SURYA TEKNIK KURNIA BAROKAH</title>
+  <meta name="description" content="Solusi manufaktur & fabrikasi: fabrication, machining, welding, piping, maintenance.">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+
+  <style>
+    /* ==== Popup Styles ==== */
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .popup-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      max-width: 350px;
+      width: 100%;
+    }
+
+    .popup-close {
+      float: right;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .popup-btn {
+      background:#00ff00;
+      padding:10px 18px;
+      display:inline-block;
+      border-radius:5px;
+      text-decoration:none;
+    }
+  </style>
+
+    <style>
+    .wa-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 30px;
+      background-color: none;
+      color: none;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px none;
+      z-index: 1000;
+    }
+    .wa-float i {
+      margin-top: 16px;
+    }
+  </style>
+
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/LOGO_STKB.png" alt="Logo" width="50" height="48"><span>PT SURYA TEKNIK KURNIA BAROKAH</span>
+    </a>
+    <nav class="menu">
+      <a data-nav href="index.html">Beranda</a>
+      <a data-nav href="company-profile.html">Tentang</a>
+      
+      <a data-nav href="blog.html">Blog</a>
+      <a class="btn" href="index.html#kontak">Hubungi Kami</a>
+      <button class="toggle" onclick="toggleTheme()">🌓</button>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="hero">
+  <div class="container">
+    <span class="badge">Solusi Kebutuhan Proyek Anda</span>
+    <h1>PT SURYA TEKNIK KURNIA BAROKAH</h1>
+    <p>Kami menyediakan jasa <strong>fabrication, machining, welding, piping</strong> hingga <strong>maintenance</strong> untuk beragam industri. Fokus pada kualitas, keselamatan kerja (K3), dan Pelayanan optimal.</p>
+    <div style="display:flex;gap:12px;margin-top:14px">
+      <a class="btn" href="#proseskerja">Lihat Portofolio</a>
+      <a class="btn outline" href="#kontak">Minta Penawaran</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="gap:10px">
+  <div class="container">
+    <div class="kicker">Layanan Kami</div>
+    <h3 class="btn" href="">Satu Mitra untuk Solusi Menyeluruh</h3>
+   
+    <div class="grid g3" style="margin-top:14px">
+      <div class="card">
+        <h3>Perakitan & Fabrication</h3>
+        <p>Pembuatan rangka, tanki, ducting, dan platform sesuai gambar kerja & standar industri.</p>
+      </div>
+      <div class="card">
+        <h3>Machining </h3>
+        <p>Bubut, milling, drilling, cutting untuk sparepart & komponen custom.</p>
+      </div>
+      <div class="card">
+        <h3>Welding & Piping</h3>
+        <p>Welding SMAW/GTAW/MIG, pembuatan spool piping, skid, dan instalasi on-site.</p>
+      </div>
+      <div class="card">
+        <h3>Maintenance & Overhaul</h3>
+        <p>Shutdown maintenance, alignment, balancing, overhaul mesin & peralatan pabrik.</p>
+      </div>
+      <div class="card">
+        <h3>Engineering Support</h3>
+        <p>Desain, kalkulasi, gambar kerja, FAT/SAT plan, ITP & dokumentasi QC.</p>
+      </div>
+      <div class="card">
+        <h3>Supplier</h3>
+        <p>Material industri, sparepart industri.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="gap:10px">
+  <div class="container">
+    <div class="kicker">Tentang</div>
+    <h3 class="btn" href="">Company Profile</h3>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="card">
+        <h3>Profile Singkat</h3>
+        <p>PT SURYA TEKNIK KURNIA BAROKAH bergerak di bidang manufaktur dan fabrikasi. Kami mendukung kebutuhan proyek EPC kecil-menengah-besar dengan standar mutu dan K3.</p>
+        <ul>
+          <li>Tim tersertifikasi & berpengalaman.</li>
+          <li>Kualitas</li>
+          <li>On-time Delivery.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Quick Facts</h3>
+        <table>
+          <tr><td>Tahun Berdiri</td><td>2014</td></tr>
+          <tr><td>Standar</td><td>SMK3</td></tr>
+          <tr><td>On-time Delivery</td><td>≥ 98%</td></tr>
+          <tr><td>Area Layanan</td><td>Seluruh Indonesia</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proseskerja" class="section" style="gap:10px">
+  <div class="container">
+    <div class="kicker">Proses Kerja</div>
+    <h3 class="btn" href="">Dari Konsultasi hingga Komisioning</h3>
+    <ul class="grid g3 process" style="margin-top:14px">
+      <li><div class="num">01</div><strong>Konsultasi</strong><br>Survey & pengumpulan data.</li>
+      <li><div class="num">02</div><strong>Engineering</strong><br>Desain, kalkulasi, gambar kerja.</li>
+      <li><div class="num">03</div><strong>Fabrication</strong><br>Produksi, QC in-process.</li>
+      <li><div class="num">04</div><strong>Instalasi</strong><br>Delivery, erection, alignment, FAT/SAT.</li>
+      <li><div class="num">05</div><strong>Dokumentasi</strong><br>As-built</li>
+    </ul>
+  </div>
+</section>
+
+<section id="portofolio" class="section" style="gap:10px">
+  <div class="container">
+    <div class="kicker">Hasil</div>
+    <h3 class="btn" href="">Proyek yang sudah dikerjakan</h3>
+    <div class="grid g3" style="margin-top:14px">
+      <div class="card">
+        <img src="assets/portofolio/skid 4 actuator.jpg" alt="Skid 4 Actuator" style="width:100%;border-radius:8px">
+        <strong>SKID POMPA WITH ACTUATOR & PANEL</strong>
+        
+      </div>
+      <div class="card">
+        <img src="assets/portofolio/skid tanki 2000.jpeg" alt="Skid Tanki 2000" style="width:100%;border-radius:8px">
+        <strong>SKID TANKI</strong>
+        
+      </div>
+      <div class="card">
+        <img src="assets/portofolio/shaft screw.jpeg" alt="Shaft screw" style="width:100%;border-radius:8px">
+        <strong>SHAFT SCREW</strong>
+        
+      </div>
+      <div class="card">
+        <img src="assets/portofolio/instalasi piping.jpeg" alt="Instalasi Piping" style="width:100%;border-radius:8px">
+        <strong>INSTALASI PIPING PVC</strong>
+        
+      </div>
+      <div class="card">
+        <img src="assets/portofolio/waste buggy.jpeg" alt="Waste Buggy" style="width:100%;border-radius:8px">
+        <strong>WASTE BUGGY</strong>
+        
+      </div>
+      <div class="card">
+        <img src="assets/portofolio/instalasi skid.jpeg" alt="Instalasi Skid" style="width:100%;border-radius:8px">
+        <strong>INSTALASI SKID</strong>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mitra" class="section" style="gap:10px">
+  <div class="container">
+    <div class="kicker">Mitra</div>
+    <h3 class="btn" href="">Mitra kami</h3>
+    <div class="grid g3" style="margin-top:7px">
+      <div class="card">
+        <img src="assets/mitra/indokordsa.png" alt="indokordsa" style="width:100%;border-radius:20px">
+        <strong></strong>
+      </div>
+      <div class="card">
+        <img src="assets/mitra/ecolab.jpg" alt="ecolab" style="width:100%;border-radius:20px">
+        <strong></strong>
+      </div>
+      <div class="card">
+        <img src="assets/mitra/dagsap.jpg" alt="dagsap" style="width:100%;border-radius:20px">
+        <strong></strong>
+      </div>
+        </div>
+  </div>
+</section>
+
+<section id="kontak" class="section" style="gap:10px">
+  <div class="container">
+    <div class="kicker">Kontak</div>
+    <h3 class="btn" href="#kontak">Mari diskusikan Proyek Anda</h3>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="card">
+        <h3>Informasi</h3>
+        <p>Alamat Workshop: Jl. Pahlawan, Citeureup-Kab.Bogor, Jawa Barat, 16810, Indonesia</p>
+        <p>Telepon: (021) 87943148<br>Email: sambas.suryateknik@gmail.com</p>
+      </div>
+      <div class="card">
+        <h3>Kontak</h3>
+        <p>Silahkan hubungi kami melalui WhatsApp dibawah ini:</p>
+     <div style="margin-top:10px">
+              <a class="btn" href="https://wa.me/6281311142675">Hubungi Kami</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container cols">
+    <div>
+      <div class="brand" style="gap:10px"><img src="assets/LOGO_STKB.png" width="50" height="48"><span>PT SURYA TEKNIK KURNIA BAROKAH</span></div>
+      <p class="muted" style="margin-left: 60px;">Solusi kebutuhan proyek Anda.</p>
+    </div>
+    <div>
+      <strong>Navigasi</strong>
+      <div class="grid" style="margin-top:8px">
+        <a href="index.html">Beranda</a>
+        <a href="company-profile.html">Tentang</a>
+        
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+    <div>
+      <strong>Kontak</strong>
+      <p class="muted">Jl. Pahlawan, Citeureup-Kab.Bogor, Jawa Barat, 16810, Indonesia<br>
+      Telp: (021) 87943148<br>
+      Email: sambas.suryateknik@gmail.com</p>
+    </div>
+  </div>
+  <div class="copy">© 2025 PT SURYA TEKNIK KURNIA BAROKAH. All rights reserved.</div>
+</footer>
+
+<script>
+function openPopup() {
+  document.getElementById("popup").style.display = "flex";
+}
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+</script>
+
+<a href="https://wa.me/6281311142675" class="wa-float" target="blank" title="Chat via WhatsApp">
+  <div class="chat" style="margin-top: -40px;"></i><img src="assets/wa.png" style=" width:110%; border-radius: 30px"></div>
+</a>
+
+</body>
+</html>
